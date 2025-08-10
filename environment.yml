@@ -1,0 +1,19 @@
+name: asr_whisper
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pytorch=2.4.1
+  - torchaudio=2.4.1
+  - torchvision=0.19.1
+  - numpy
+  - soundfile
+  - librosa=0.11.0
+  - pip
+  - pip:
+      - transformers==4.44.2
+      - tokenizers==0.19.1
+      - huggingface_hub==0.34.4
+      - tqdm>=4.65
+
